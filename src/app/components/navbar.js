@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import '../globals.css'; // Add this if styles are in globals
 
 export default function Navbar() {
   return (
