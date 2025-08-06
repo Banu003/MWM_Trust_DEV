@@ -1,18 +1,13 @@
 import './globals.css';
 import Navbar from './components/navbar';
-import Footer from './components/Footer'; // optional
-
-export const metadata = {
-  title: 'MWM Trust',
-  description: 'Helping lives through legal aid and support',
-};
+import Footer from './components/Footer';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="site-bg">
         <Navbar />
-        <main className="container py-4">{children}</main>
+        <main className="container-fluid px-0">{children}</main>
         <Footer />
       </body>
     </html>

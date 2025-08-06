@@ -7,3 +7,98 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.transition-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.content-container {
+  z-index: 2;
+  position: relative;
+  padding: 2rem;
+  height: 100vh;
+}
+.home-bg {
+  background: url('/bgimg.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;         /* Full height of viewport */
+  width: 100%;
+  padding: 100px 20px;
+}
+.transition-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar enhancements */
+
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #0d6efd; /* Bootstrap primary */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.navbar .btn-primary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: scale(1.05);
+}
+
+.navbar a.text-dark {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.navbar a.text-dark:hover {
+  color: #0d6efd;
+  transform: translateY(-2px);
+}
+
+
+
+

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer className="bg-gray-200 text-center p-4 mt-8">
+      <p>&copy; {new Date().getFullYear()} MWM Trust. All rights reserved.</p>
+    </footer>
+  );
 }
