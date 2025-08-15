@@ -12,7 +12,8 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="home-bg d-flex justify-content-center align-items-center text-white text-center">
+    <div className="home-bg d-flex justify-content-center align-items-center text-dark text-center">
+
       <div className="p-4">
         <h1 className="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">
           Welcome to MWM Trust

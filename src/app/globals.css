@@ -35,7 +35,8 @@ body {
 }
 .home-bg {
   background: url('/bgimg.jpg') no-repeat center center;
-  background-size: cover;
+  background-size: 200px 150px;
+  background-size: 100% 100%;
   min-height: 100vh;         /* Full height of viewport */
   width: 100%;
   padding: 100px 20px;
