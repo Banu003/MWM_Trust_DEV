@@ -36,10 +36,11 @@ export default function About() {
         <div className="col-md-6">
           <div className="card h-100 shadow-sm border-0 transition-hover">
             <div className="card-body">
-              <h5 className="card-title"><i className="bi bi-eye me-2 text-success"></i>Our Vision & Motto</h5>
+              <h5 className="card-title">
+                <i className="bi bi-eye me-2 text-success"></i>Our Vision & Motto</h5>
               <p className="card-text">
                 "Expect great things from God and attempt great things for God."  
-                We envision a generation of young leaders rising from brokenness to purpose.
+                 We envision a generation of young leaders rising from brokenness to purpose.
               </p>
             </div>
           </div>
